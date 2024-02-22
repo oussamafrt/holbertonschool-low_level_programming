@@ -3,7 +3,7 @@
 /**
  * print_sign - Entry point
  *
- * @c: character to be verified
+ * @n: character to be verified
  *
  * Return: 1 (success) O (fail)
  */
