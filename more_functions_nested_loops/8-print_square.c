@@ -2,7 +2,7 @@
 
 /**
  * print_square - Entry point
- *@n : character to be verified
+ *@size : character to be verified
  *
  * Return: Always 0.
  */
