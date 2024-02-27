@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * strlen - Entry point
+ * _strlen - Entry point
  * @s: character to print
- * @a: character to be print
  *
  * Return: Always 0.
  */
