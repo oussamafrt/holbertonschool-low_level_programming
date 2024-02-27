@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - Entry point
- *@seize : character to be verified
+ *@size : character to be verified
  *
  * Return: Always 0.
  */
