@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap - Entry point
+ * swap_int - Entry point
  * @a: character to be verified
  * @b: character to be verified
  *
@@ -9,7 +9,9 @@
  */
 void swap_int(int *a, int *b)
 {
-	*a = 42;
-	*b = 98;
-}
+	int c;
 
+	c = *b;
+	*b = *a;
+	*a = c;
+}
