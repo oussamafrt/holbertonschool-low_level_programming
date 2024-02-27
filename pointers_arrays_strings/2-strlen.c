@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - Entry point
+ * strlen - Entry point
  * @s: character to print
  * @a: character to be print
  *
