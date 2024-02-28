@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - Entry point
+ * print_rev - Entry point
  * @s: charater to print
  *
  * Return: Always 0.
@@ -9,7 +9,7 @@
 void print_rev(char *s)
 {
 	int l, i;
-	l = 0;
+	l = 0;i
 
 	while (s[l] != '\0')
 	{
