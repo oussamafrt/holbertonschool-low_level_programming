@@ -23,7 +23,10 @@ void puts_half(char *str)
 		n = l - 1 / 2;
 		n++;
 	}
-	n = l / 2;
+	else
+	{
+		n = l / 2;
+	}
 
 	for (i = n ; i < l ; i++)
 	{
