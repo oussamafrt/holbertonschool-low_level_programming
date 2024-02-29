@@ -1,9 +1,9 @@
 #include "main.h"
 
-/** puts2 - Entry point 
+/**
+ * puts2 - Entry point 
  *
  * @str: character to be print
- * @l: character to be print
  *
  * return: Always 0
  */
