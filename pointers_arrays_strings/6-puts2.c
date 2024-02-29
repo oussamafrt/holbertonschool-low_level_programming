@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - Entry point 
+ * puts2 - Entry point
  *
  * @str: character to be print
  *
