@@ -4,7 +4,8 @@
 /**
  * print_array : Entry point
  *
- * n@: character to print
+ * @n: character to print
+ * @*a: character to print
  *
  * Return: Always 0;
  */
