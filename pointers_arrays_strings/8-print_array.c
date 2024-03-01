@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_array : Entry point
+ * print_array - Entry point
  *
  * @n: character to print
- * @*a: character to print
+ * @a: character to print
  *
  * Return: Always 0;
  */
