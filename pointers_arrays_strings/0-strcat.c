@@ -2,7 +2,7 @@
 
 /**
  * _strcat - Entry point
- * @str: charater to print
+ * @src: charater to print
  * @dest: character to print
  *
  * Return: Always 0.
