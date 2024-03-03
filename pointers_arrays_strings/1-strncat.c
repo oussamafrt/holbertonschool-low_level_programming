@@ -4,6 +4,7 @@
  * _strncat - Entry point
  * @dest: character to be print
  * @src: character to be print
+ * @n: character to be print
  * Return: Always 0
  */
 
