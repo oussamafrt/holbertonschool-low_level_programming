@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _memcpy - Entry point
+ * _strchr - Entry point
  * @c: character to print
  * @s: character to print
  *
@@ -11,7 +11,7 @@
 
 char *_strchr(char *s, char c)
 {
-	int i;
+	int i = 0;
 
 	while (s[i] >= '\0')
 	{
