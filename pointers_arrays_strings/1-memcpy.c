@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - Entry point
+ * _memcpy - Entry point
  * @dest: character to print
  * @src: character to print
  * @n: character to print
