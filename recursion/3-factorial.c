@@ -1,10 +1,10 @@
 #include "main.h"
-
-/* factorial - Enntry point
+/**
+ * factorial - check the code
  *
- *@n : character to print
+ * @n: The character to print
  *
- * retunr: Always 0
+ * Return: Always 0.
  */
 
 int factorial(int n)
