@@ -11,12 +11,8 @@
 
 int main(int argc, char **argv)
 {
-	int i;
-
-	for (i = 0 ; argv[i] != NULL ; i++)
-	{
-		printf("%d\n", argc - 1);
-	}
+	(void) argv;
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
