@@ -23,6 +23,8 @@ int main(int argc, char **argv)
 		result = a * b;
 		printf("%d\n", result);
 	}
+	else
+		printf("Error\n");
 
 	return (0);
 }
