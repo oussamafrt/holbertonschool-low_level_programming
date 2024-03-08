@@ -13,7 +13,7 @@
 
 int main(int argc, char **argv)
 {
-	int i;
+	int i, a;
 	int result;
 
 	if (argc < 2)
@@ -34,7 +34,8 @@ int main(int argc, char **argv)
 			}
 			arg_act++;
 		}
-		result += atoi(argv[i]);
+		a = atoi(argv[i]);
+		result += a;
 	}
 	printf("%d\n", result);
 	return 0;
