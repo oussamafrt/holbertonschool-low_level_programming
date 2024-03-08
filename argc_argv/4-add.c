@@ -24,15 +24,15 @@ int main(int argc, char **argv)
 	{
 		char *arg_act = argv[i];
 
-			while (*arg_act != '\0')
+		while (*arg_act != '\0')
+		{
+			if (!isdigit(*arg_act))
 			{
-				if (!isdigit(*arg_act))
-				{
-					printf("Error\n");
-					return 1;
-				}
-			arg_act++;
+				printf("Error\n");
+				return 1;
 			}
+			arg_act++;
+		}
 		result += atoi(argv[i]);
 	}
 	printf("%d\n", result);
