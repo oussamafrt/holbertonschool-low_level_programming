@@ -38,5 +38,5 @@ int main(int argc, char **argv)
 		result += a;
 	}
 	printf("%d\n", result);
-	return 0;
+	return (0);
 }
