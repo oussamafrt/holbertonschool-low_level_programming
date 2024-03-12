@@ -22,6 +22,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		size++;
 	}
+	if (s2 == NULL)
+		return (NULL);
 	while (s2[taille] != '\0')
 	{
 		taille++;
