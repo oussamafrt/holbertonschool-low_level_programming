@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * alloc_grid - Entry point
- * @widht: character to print
+ * @width: character to print
  * @height: character to print
  * Return: Always 0.
  */
