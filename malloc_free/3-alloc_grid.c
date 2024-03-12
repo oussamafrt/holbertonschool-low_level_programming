@@ -1,0 +1,48 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * str_concat - Entry point
+ *
+ * @widht : character to print
+ * @height : character to print
+ *
+ * Return: Always 0.
+ */
+
+int **alloc_grid(int width, int height)
+{
+	int i, j;
+	int **tableau;
+
+	if (width <= 0 || height <= 0)
+		return NULL;
+
+	tableau = malloc((height) * sizeof(int*));
+	if (tableau == NULL)
+		return NULL;
+
+	for (i = 0 ; i < height ; i++)
+	{
+		tableau[i] = malloc(width * sizeof(int));
+		if (tableau[i] == NULL)
+		{
+			for (j = 0 ; j < i ; j++)
+			{
+				free(tableau[j]);
+			}
+		free(tableau);
+		return NULL;
+		}
+	}
+
+	for (i = 0 ; i < height ; i++)
+	{
+		for (j = 0 ; j < height ; j++)
+		{
+			tableau[i][j] = 0;
+		}
+	}
+	return tableau;
+}
