@@ -28,12 +28,12 @@ int **alloc_grid(int width, int height)
 		tableau[i] = malloc(width * sizeof(int));
 		if (tableau[i] == NULL)
 		{
-			for ( ; i >= 0 ; i++)
+			for ( ; i >= 0 ; i--)
 			{
 				free(tableau[i]);
 			}
-		free(tableau);
-		return (NULL);
+			free(tableau);
+			return (NULL);
 		}
 	}
 
