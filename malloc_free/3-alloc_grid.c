@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 	int **tableau;
 
 	if (width <= 0 || height <= 0)
-		return (NULL);
+		return (NULL) ;
 
 	tableau = malloc(height * sizeof(int *));
 	if (tableau == NULL)
