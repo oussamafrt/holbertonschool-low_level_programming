@@ -14,6 +14,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
+	int i, c;
 	char *result;
 	unsigned int taille;
 	unsigned int size;
@@ -36,9 +37,14 @@ char *str_concat(char *s1, char *s2)
 	if (result == NULL)
 		return (NULL);
 
-	strcpy(result, s1);
+	for (i = 0; s1[i] != '\0'; i++)
 
-	strcat(result, s2);
+	for (c = 0; s2[c] != '\0'; c++)
+	{
+		s1[i] = s2[c];
+		i++;
+	}
 
-	return result;
+	s1[i] = '\0';
+	return (s1);
 }
