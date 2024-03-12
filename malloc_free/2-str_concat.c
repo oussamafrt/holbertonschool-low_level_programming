@@ -16,14 +16,18 @@ char *str_concat(char *s1, char *s2)
 	unsigned int taille = 0;
 	unsigned int size = 0;
 
-	if (s1 == NULL)
-		return (NULL);
+	if (s1 == 0)
+	{
+		s1 = " ";
+	}
+	if (s2 == 0)
+	{
+		s2 = " ";
+	}
 	while (s1[size] != '\0')
 	{
 		size++;
 	}
-	if (s2 == NULL)
-		return (NULL);
 	while (s2[taille] != '\0')
 	{
 		taille++;
