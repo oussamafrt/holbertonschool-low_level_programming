@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int taille = 0;
 	unsigned int size = 0;
 
-	if (s1 == 0)
+	if (s1 == NULL)
 		return (NULL);
 
 	while (s1[size] != '\0')
@@ -49,5 +49,5 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	result[i] = '\0';
-	return result;
+	return (result);
 }
