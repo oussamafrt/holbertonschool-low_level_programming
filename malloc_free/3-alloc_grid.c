@@ -2,10 +2,8 @@
 #include <stdlib.h>
 /**
  * alloc_grid - Entry point
- *
  * @widht : character to print
  * @height : character to print
- *
  * Return: Always 0.
  */
 int **alloc_grid(int width, int height)
