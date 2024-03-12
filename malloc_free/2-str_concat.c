@@ -6,8 +6,8 @@
 /**
  * str_concat - Entry point
  *
- * @s1 : character to print
- * @s2 : character to print
+ * @s1: character to print
+ * @s2: character to print
  *
  * Return: Always 0.
  */
