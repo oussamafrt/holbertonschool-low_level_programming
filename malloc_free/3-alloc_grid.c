@@ -1,16 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * str_concat - Entry point
+ * alloc_grid - Entry point
  *
  * @widht : character to print
  * @height : character to print
  *
  * Return: Always 0.
  */
-
 int **alloc_grid(int width, int height)
 {
 	int i, j;
@@ -20,13 +17,11 @@ int **alloc_grid(int width, int height)
 	{
 		return (NULL);
 	}
-
 	tableau = malloc(height * sizeof(int *));
 	if (tableau == NULL)
 	{
 		return (NULL);
 	}
-
 	for (i = 0 ; i < height ; i++)
 	{
 		tableau[i] = malloc(width * sizeof(int));
@@ -38,7 +33,6 @@ int **alloc_grid(int width, int height)
 			}
 			free(tableau);
 		}
-
 		for (j = 0 ; j < width ; j++)
 		{
 			tableau[i][j] = 0;
